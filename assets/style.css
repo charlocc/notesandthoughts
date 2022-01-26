@@ -4,35 +4,38 @@
     --lightyellow: #f8ffe8;
 }
 
+
+
 header{
     color: var(--darkpurple);
+    font-family: 'Montserrat:wght@0,600', sans-serif;
+}
+
+nav{
+    background-color: #abcbe3;
+    padding:2%;
 }
 
 #navbarText{
     color: var(--darkpurple);
+    font-family: 'Montserrat:wght@0,600', sans-serif;
 }
 
 .card{
     background-color: var(--lightblue); 
     padding: 4% 4% 1%;
     margin: 2%;
-    border-radius: 9px;
-    border: solid;
-    border-color: var(--darkpurple);
 }
 
 .cardheader{
     text-align:center;
-    background-color: var(--darkpurple);
-    color: var(--lightyellow);
-    border-radius: 9px;
     padding: 1%;
 }
 
-.card:hover {
+/* .card:hover {
     border-color: var(--lightyellow);
-    /* box-shadow: 10px 10px 10px var(--darkpurple); */
-}
+    box-shadow: 10px 10px 10px var(--darkpurple);
+} */
 
 .postdate{
     text-align:center;
