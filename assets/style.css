@@ -23,7 +23,7 @@ nav{
 
 .card{
     background-color: var(--lightblue); 
-    padding: 4% 4% 1%;
+    padding: 1% 4% 1%;
     margin: 2%;
 }
 
@@ -37,11 +37,22 @@ nav{
     box-shadow: 10px 10px 10px var(--darkpurple);
 } */
 
-.postdate{
+
+.posttitle, .postdate{
     text-align:center;
+    font-family: 'Montserrat:wght@0,600', sans-serif;
+
 }
+
 
 .postimage{
     border-radius: 9px;
-    
+
 }
+
+.blogtext{
+    font-family: 'Montserrat:wght@0,600', sans-serif;
+
+}
+
+
