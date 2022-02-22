@@ -21,6 +21,18 @@ nav{
     font-family: 'Montserrat:wght@0,600', sans-serif;
 }
 
+#charlottepicture{
+    height: 10%;
+    border-radius: 9px; 
+}
+
+.text{
+    margin: 3px;
+    padding: 3%;
+    border: solid var(--darpurple) 2px;
+    font-family: 'Montserrat:wght@0,600', sans-serif;
+}
+
 .card{
     background-color: var(--lightblue); 
     padding: 1% 4% 1%;
