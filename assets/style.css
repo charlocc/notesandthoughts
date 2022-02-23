@@ -1,9 +1,8 @@
 :root{
-    --darkpurple: rgb(36, 37, 52);
+    --darkpurple: #242534;
     --lightblue: #abcbe3;
     --lightyellow: #f8ffe8;
 }
-
 
 
 header{
@@ -23,7 +22,7 @@ nav{
 
 #charlottepicture{
     height: 10%;
-    border-radius: 9px; 
+
 }
 
 .text{
@@ -31,6 +30,22 @@ nav{
     padding: 3%;
     border: solid var(--darpurple) 2px;
     font-family: 'Montserrat:wght@0,600', sans-serif;
+}
+.lang{
+    margin: 5px;
+}
+
+.icon{
+    height: 45px;
+    border-radius: 7px;
+}
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 0%;
+    align-items: center;
+    width: 100%;
 }
 
 .card{
